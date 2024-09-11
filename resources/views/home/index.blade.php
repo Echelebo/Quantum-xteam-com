@@ -1,6 +1,6 @@
 @include('home.header')
 <main>
-    <section class="section-image section-home-one no-padding-y" style="background-image:url(media/hd-1.jpg)">
+    <section class="section-image section-home-one no-padding-y" style="background-image:url(/xteam/media/hd-1.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -10,11 +10,13 @@
                     </h3>
                     <ul class="slider" data-options="arrows:false,nav:false,autoplay:3000,controls:out">
                         <li>
-                            <h1 class="text-uppercase">"Tesla X automated investments in crypto. Our team are ready for
+                            <h1 class="text-uppercase">"Quantum Xteam automated investments in crypto. Our team are ready
+                                for
                                 the best"</h1>
                         </li>
                         <li>
-                            <h1 class="text-uppercase">“With Tesla X Platform, the possibilities for crypto trading, are
+                            <h1 class="text-uppercase">“With Quantum Xteam Platform, the possibilities for crypto
+                                trading, are
                                 limitless.”</h1>
                         </li>
                         <li>
@@ -23,19 +25,19 @@
                         </li>
                     </ul>
                     <p>
-                        By leveraging Tesla X programs real-time market updates, trend analysis, and pattern
+                        By leveraging Quantum Xteam programs real-time market updates, trend analysis, and pattern
                         recognition, you can stay ahead of the curve and make informed trading decisions.
                     </p>
                     <hr class="space-sm" />
-                    <a href="indexcca3.html?a=signup" class="btn btn-sm width-190 full-width-sm">Register</a>
-                    <a href="indexc30b.html?a=login"
+                    <a href="{{ route('register') }}" class="btn btn-sm width-190 full-width-sm">Register</a>
+                    <a href="{{ route('login') }}"
                         class="btn btn-border btn-sm width-190 active full-width-sm">Login</a>
                     <hr class="space-lg" />
                 </div>
                 <div class="col-lg-5 hidden-md">
                     <hr class="space-sm" />
                     <img data-anima="fade-bottom" data-time="1000" class="slide-image"
-                        src="images/headgif3aee.gif?v=1.201990" alt="" />
+                        src="/xteam/images/headgif3aee.gif?v=1.201990" alt="" />
                 </div>
             </div>
         </div>
@@ -77,10 +79,10 @@
                         </li>
                         -->
                         <li>
-                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout1.jpg"
+                            <a class="img-box img-box-caption lightbox" href="/xteam/images/phoenixabout1.jpg"
                                 data-lightbox-anima="fade-top">
-                                <img src="images/phoenixabout13aee.jpg?v=1.201990" alt="">
-                                <span>Tesla X</span>
+                                <img src="/xteam/images/phoenixabout13aee.jpg?v=1.201990" alt="">
+                                <span>Quantum Xteam</span>
                             </a>
                         </li>
                     </ul>
@@ -91,9 +93,11 @@
                         <p>About us</p>
                     </div>
                     <p>
-                        Tesla X is not just an investment/trading platform; it is a revolutionary force in the world of
+                        Quantum Xteam is not just an investment/trading platform; it is a revolutionary force in the
+                        world of
                         finance, powered by the visionary approach and AI expertise of Elon Musk. With its cutting-edge
-                        features and unparalleled capabilities, Tesla X program empowers traders to unlock their full
+                        features and unparalleled capabilities, Quantum Xteam program empowers traders to unlock their
+                        full
                         potential and achieve financial success.
                         <br>
                         By leveraging TeslaX’s advanced algorithms and automation, you can experience rapid profit
@@ -103,7 +107,7 @@
 
 
                     </p>
-                    <a href="indexe47e.html?a=about" class="btn btn-sm width-190 full-width-sm">Read More</a>
+                    <a href="{{ route('about') }}" class="btn btn-sm width-190 full-width-sm">Read More</a>
                     <!--
                     <div class="box-sign">
                         <img alt="sign" src="media/sign-dark.png">
@@ -121,7 +125,7 @@
 
     <br>
 
-    <img src="images/tesla-wraps.gif" alt="" width="100%">
+    <img src="/xteam/images/tesla-wraps.gif" alt="" width="100%">
 
     <br>
 
@@ -141,17 +145,17 @@
                         </li>
                         -->
                         <li>
-                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout2.jpg"
+                            <a class="img-box img-box-caption lightbox" href="/xteam/images/phoenixabout2.jpg"
                                 data-lightbox-anima="fade-top">
-                                <img src="images/phoenixabout23aee.jpg?v=1.201990" alt="">
-                                <span>Tesla X</span>
+                                <img src="/xteam/images/phoenixabout23aee.jpg?v=1.201990" alt="">
+                                <span>Quantum Xteam</span>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
                     <div class="title">
-                        <h2>Tesla X Trading</h2>
+                        <h2>Quantum Xteam Trading</h2>
 
                     </div>
                     <p>
@@ -160,7 +164,8 @@
                         automotive industry with Tesla and pursuing space exploration with SpaceX, Musk has consistently
                         demonstrated his pursuit of transformative ideas.
                         <br>
-                        Now, he sets his sights on the world of trading with Tesla X, a revolutionary platform that
+                        Now, he sets his sights on the world of trading with Quantum Xteam, a revolutionary platform
+                        that
                         harnesses the power of artificial intelligence (AI) to redefine the trading landscape.
                     </p>
 
@@ -196,10 +201,10 @@
                         </li>
                         -->
                         <li>
-                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout3.jpg"
+                            <a class="img-box img-box-caption lightbox" href="/xteam/images/phoenixabout3.jpg"
                                 data-lightbox-anima="fade-top">
-                                <img src="images/phoenixabout33aee.jpg?v=1.201990" alt="">
-                                <span>Tesla X</span>
+                                <img src="/xteam/images/phoenixabout33aee.jpg?v=1.201990" alt="">
+                                <span>Quantum Xteam</span>
                             </a>
                         </li>
                     </ul>
@@ -254,10 +259,10 @@
                         </li>
                         -->
                         <li>
-                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout5.jpg"
+                            <a class="img-box img-box-caption lightbox" href="/xteam/images/phoenixabout5.jpg"
                                 data-lightbox-anima="fade-top">
-                                <img src="images/phoenixabout53aee.jpg?v=1.201990" alt="">
-                                <span>Tesla X</span>
+                                <img src="/xteam/images/phoenixabout53aee.jpg?v=1.201990" alt="">
+                                <span>Quantum Xteam</span>
                             </a>
                         </li>
                     </ul>
@@ -269,10 +274,11 @@
                     </div>
                     <p>
 
-                        Stand a chance to win a Brand Neew Tesla Car by investing regularly with teamx-vest.com
+                        Stand a chance to win a Brand Neew Tesla Car by investing regularly with quantum xteam
 
                         <br>
-                        Now is the time to embrace the future of trading. Collaborate with Elon Musk’s creation, Tesla X
+                        Now is the time to embrace the future of trading. Collaborate with Elon Musk’s creation, Quantum
+                        Xteam
                         platform, and embark on a profitable trading journey like never before. Join the growing
                         community of traders who are already experiencing exceptional results. Don’t miss out on this
                         opportunity to revolutionize your financial success.
@@ -280,7 +286,7 @@
 
                     </p>
 
-                    <a href="index52b6.html?a=redeem" class="btn btn-sm width-190 full-width-sm">Redeem Now</a>
+                    <a href="{{ route('redeem') }}" class="btn btn-sm width-190 full-width-sm">Redeem Now</a>
 
                     <!--
                     <div class="box-sign">
@@ -328,7 +334,7 @@
                         <h2>Our Certificate</h2>
                     </div>
                     <p>
-                        teamx-vest.com is a private, legally registered online investment company with the goal of earning the greatest profit possible from Foreign exchange trading. If this sounds like your ideal situation, and if you are considering entering the online investment marketing, we strongly recommend giving us here at teamx-vest.com a try; we are positive that you will be able to become a huge success in partnership with our company.
+                        quantum xteam is a private, legally registered online investment company with the goal of earning the greatest profit possible from Foreign exchange trading. If this sounds like your ideal situation, and if you are considering entering the online investment marketing, we strongly recommend giving us here at quantum xteam a try; we are positive that you will be able to become a huge success in partnership with our company.
                     </p>
 
                 </div>
@@ -378,7 +384,7 @@
                     -->
                     <div class="grid-item">
                         <div class="cnt-box cnt-box-info boxed" data-href="#">
-                            <a href="#" class="img-box"><img src="images/phoenixf13aee.jpg?v=1.201990"
+                            <a href="#" class="img-box"><img src="/xteam/images/phoenixf13aee.jpg?v=1.201990"
                                     alt="" /></a>
                             <div class="caption">
                                 <h2>Investment Management</h2>
@@ -410,7 +416,7 @@
                     -->
                     <div class="grid-item">
                         <div class="cnt-box cnt-box-info boxed" data-href="#">
-                            <a href="#" class="img-box"><img src="images/phoenixf23aee.jpg?v=1.201990"
+                            <a href="#" class="img-box"><img src="/xteam/images/phoenixf23aee.jpg?v=1.201990"
                                     alt="" /></a>
                             <div class="caption">
                                 <h2>Investing and Lending</h2>
@@ -423,12 +429,12 @@
                     </div>
                     <div class="grid-item">
                         <div class="cnt-box cnt-box-info boxed" data-href="#">
-                            <a href="#" class="img-box"><img src="images/phoenixf33aee.jpg?v=1.201990"
+                            <a href="#" class="img-box"><img src="/xteam/images/phoenixf33aee.jpg?v=1.201990"
                                     alt="" /></a>
                             <div class="caption">
                                 <h2>Transaction and Investment Banking</h2>
                                 <p>
-                                    At teamx-vest.com, we have been continuously transforming the traditional money
+                                    At quantum xteam, we have been continuously transforming the traditional money
                                     management industry, in order to open the financial markets to everyone, everywhere.
                                 </p>
                             </div>
@@ -436,10 +442,10 @@
                     </div>
                     <div class="grid-item">
                         <div class="cnt-box cnt-box-info boxed" data-href="#">
-                            <a href="#" class="img-box"><img src="images/phoenixf43aee.jpg?v=1.201990"
+                            <a href="#" class="img-box"><img src="/xteam/images/phoenixf43aee.jpg?v=1.201990"
                                     alt="" /></a>
                             <div class="caption">
-                                <h2>At teamx-vest.com firm</h2>
+                                <h2>At quantum xteam firm</h2>
                                 <p>
                                     We precisely provide value in those areas that matter. We assist portfolio companies
                                     in developing and executing strategic growth, building the board and executive
@@ -620,9 +626,9 @@ An NFT has value because the buyer and their community believe it has value—wh
                     </p>
 
                     <p>
-                        When it comes to trading platforms, user experience is paramount. Tesla X takes pride in
+                        When it comes to trading platforms, user experience is paramount. Quantum Xteam takes pride in
                         offering a seamless and intuitive interface that caters to both seasoned traders and beginners
-                        alike. Let’s explore the key elements that make Tesla X’s user experience exceptional:
+                        alike. Let’s explore the key elements that make Quantum Xteam’s user experience exceptional:
                     </p>
 
 
@@ -630,7 +636,7 @@ An NFT has value because the buyer and their community believe it has value—wh
 
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/nepgif3aee.gif?v=1.201990" alt="" />
+                    <img src="/xteam/images/nepgif3aee.gif?v=1.201990" alt="" />
                 </div>
             </div>
         </div>
@@ -662,7 +668,7 @@ An NFT has value because the buyer and their community believe it has value—wh
                         trading strategies, giving you a competitive edge.
 
 
-                        Take action now! Explore Tesla X and unlock your trading potential. Sign up today and let
+                        Take action now! Explore Quantum Xteam and unlock your trading potential. Sign up today and let
                         platform guide you towards financial prosperity. Your future starts now.
                     </p>
                     <hr class="space-sm" />

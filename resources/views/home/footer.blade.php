@@ -3,14 +3,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <a href="indexbc14.html?a=home">
-                    <img class="logo-default scroll-hide" src="media/logo3aee.png?v=1.201990" alt="logo"
+                <a href="{{ route('home') }}">
+                    <img class="logo-default scroll-hide" src="/xteam/media/logo3aee.png?v=1.201990" alt="logo"
                         width="120" />
-                    <img class="logo-retina scroll-hide" src="media/logo3aee.png?v=1.201990" alt="logo"
+                    <img class="logo-retina scroll-hide" src="/xteam/media/logo3aee.png?v=1.201990" alt="logo"
                         width="120" />
-                    <img class="logo-default scroll-show" src="media/logo3aee.png?v=1.201990" alt="logo"
+                    <img class="logo-default scroll-show" src="/xteam/media/logo3aee.png?v=1.201990" alt="logo"
                         width="120" />
-                    <img class="logo-retina scroll-show" src="media/logo3aee.png?v=1.201990" alt="logo"
+                    <img class="logo-retina scroll-show" src="/xteam/media/logo3aee.png?v=1.201990" alt="logo"
                         width="120" />
                 </a>
                 <!-- <p>Full suite enable teams to develop unique search and discovery experiences.</p> -->
@@ -28,15 +28,15 @@
             <div class="col-lg-4">
                 <h3>Quick Links</h3>
                 <ul class="icon-list icon-line">
-                    <li><a href="indexbc14.html?a=home">Home</a></li>
-                    <li><a href="indexe47e.html?a=about">About Us</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
 
-                    <li><a href="indexdaa8.html?a=howto">Video Guides</a></li>
-                    <li><a href="index058e.html?a=affiliate">Affiliate</a></li>
-                    <li><a href="index38cd.html?a=faq">FAQ</a></li>
-                    <li><a href="index54f9.html?a=tx">Live TX</a></li>
-                    <li><a href="index15a0.html?a=support">Contact Us</a></li>
-                    <li><a href="indexa972.html?a=rules">Terms</a></li>
+                    <li><a href="{{ route('videos') }}">Video Guides</a></li>
+                    <li><a href="{{ route('affiliate') }}">Affiliate</a></li>
+                    <li><a href="{{ route('faq') }}">FAQ</a></li>
+                    <li><a href="{{ route('payouts') }}">Live TX</a></li>
+                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                    <li><a href="{{ route('terms') }}">Terms</a></li>
                 </ul>
             </div>
             <div class="col-lg-4">
@@ -64,10 +64,8 @@
                     <br>
                     <li><b>Email</b>
                         <hr />
-                        <p style="color:white;"><a
-                                href="cdn-cgi/l/email-protection.html#6f1c1a1f1f001d1b2f1b0a0e021742190a1c1b410c0002"><span
-                                    class="__cf_email__"
-                                    data-cfemail="394a4c4949564b4d794d5c585441144f5c4a4d175a5654">[email&#160;protected]</span></a>
+                        <p style="color:white;"><a href="mailto:support@quantum-xteam.com"><span class="__cf_email__"
+                                    data-cfemail="394a4c4949564b4d794d5c585441144f5c4a4d175a5654"></span>support@quantum-xteam.com</a>
                         </p>
                     </li>
                     <!--
@@ -80,31 +78,31 @@
     </div>
     <div class="footer-bar">
         <div class="container">
-            <span>© 2024 <a href="indexbc14.html?a=home">TEAMX-VEST.COM.</a> ALL RIGHTS RESERVED.</span>
-            <span><a href="index15a0.html?a=support">Contact us</a> | <a href="indexa972.html?a=rules">Terms &
+            <span>© 2024 <a href="{{ route('home') }}">QUANTUM XTEAM</a> ALL RIGHTS RESERVED.</span>
+            <span><a href="{{ route('contact') }}">Contact us</a> | <a href="{{ route('terms') }}">Terms &
                     Conditions</a></span>
         </div>
     </div>
-    <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">
+    <link rel="stylesheet" href="/xteam/themekit/media/icons/iconsmind/line-icons.min.css">
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="themekit/scripts/parallax.min.js"></script>
-    <script src="themekit/scripts/glide.min.js"></script>
-    <script src="themekit/scripts/magnific-popup.min.js"></script>
-    <script src="themekit/scripts/tab-accordion.js"></script>
-    <script src="themekit/scripts/imagesloaded.min.js"></script>
-    <script src="themekit/scripts/progress.js" async></script>
+    <script src="/xteam/themekit/scripts/parallax.min.js"></script>
+    <script src="/xteam/themekit/scripts/glide.min.js"></script>
+    <script src="/xteam/themekit/scripts/magnific-popup.min.js"></script>
+    <script src="/xteam/themekit/scripts/tab-accordion.js"></script>
+    <script src="/xteam/themekit/scripts/imagesloaded.min.js"></script>
+    <script src="/xteam/themekit/scripts/progress.js" async></script>
 
 
-    <script src="themekit/scripts/contact-form/contact-form.js"></script>
-    <script src='themekit/scripts/maps.min.js'></script>
+    <script src="/xteam/themekit/scripts/contact-form/contact-form.js"></script>
+    <script src='/xteam/themekit/scripts/maps.min.js'></script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDl7p8SWg-5kLe7i-usdYCu5m3eVllMDTs'></script>
 
 
     <!-- <script src="tools/sidebar/sidebar.js" data-setting="execoore"></script> -->
 </footer>
 
-<script src="spop.js"></script>
+<script src="/xteam/spop.js"></script>
 
 
 
@@ -121,7 +119,7 @@
                 $("#wdepo").remove();
 
                 const tr = `<tr class="w3-center w3-tiny w3-hover-opacity ">
-                            <td><img src="cssjs/50.html"></td>
+                            <td><img src="/xteam/cssjs/50.html"></td>
                             <td>${date1}</td>
                             <td>${amount}<i class="icofont-bitcoin"></i></td>
                             <td><div title="${item.outputs[0].addresses[0]}" style="width:50px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap">
@@ -150,7 +148,7 @@
                 $("#wimage").remove();
 
                 const tr = `<tr class="w3-center w3-tiny w3-hover-opacity ">
-                            <td><img src="cssjs/50.html"></td>
+                            <td><img src="/xteam/cssjs/50.html"></td>
                             <td>${date1}</td>
                             <td>${amount}<i class="icofont-bitcoin"></i></td>
                             <td><div title="${item.inputs[0].addresses[0]}" style="width:50px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap">
