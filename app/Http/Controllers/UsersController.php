@@ -109,7 +109,7 @@ class UsersController extends Controller
     public function affiliate()
     {
 
-        return view('home.videos')
+        return view('home.affiliate')
             ->with(array(
                 'mplans' => plans::where('type', 'Main')->get(),
                 'pplans' => plans::where('type', 'Promo')->get(),
@@ -130,7 +130,7 @@ class UsersController extends Controller
     public function terms()
     {
 
-        return view('home.videos')
+        return view('home.terms')
             ->with(array(
                 'mplans' => plans::where('type', 'Main')->get(),
                 'pplans' => plans::where('type', 'Promo')->get(),
