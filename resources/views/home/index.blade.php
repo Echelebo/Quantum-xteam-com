@@ -1,761 +1,451 @@
 @include('home.header')
-<div class="iq-bg banner-stars">
-    <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="coinexfly"
-        data-source="gallery"
-        style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-        <!-- START REVOLUTION SLIDER 5.4.6.3 fullwidth mode -->
-        <div id="rev_slider_2_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;"
-            data-version="5.4.6.3">
-            <ul>
-                <!-- SLIDE  -->
-                <li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
-                    data-thumb="revslider/assets/100x50_b78ec-04.jpg" data-rotate="0" data-saveperformance="off"
-                    data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
-                    data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="revslider/assets/b78ec-04.jpg" alt="" data-bgposition="center center"
-                        data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
-                        data-no-retina>
-                    <!-- LAYERS -->
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-5-layer-3" data-x="right"
-                        data-hoffset="106" data-y="bottom" data-voffset="196" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"x:[100%];y:bottom;opacity:{0,1};","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 5;"><img src="revslider/assets/04c8d-05.png" alt="" data-ww="206px"
-                            data-hh="370px" data-no-retina> </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-5-layer-2" data-x="370"
-                        data-y="40" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":2500,"speed":1000,"frame":"0","from":"x:[175%];y:top;z:{-20,20};opacity:{0,1};","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 6;"><img src="revslider/assets/0dd17-06.png" alt="" data-ww="auto"
-                            data-hh="auto" data-no-retina> </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-5-layer-9" data-x="-77"
-                        data-y="389" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":2810,"speed":1000,"frame":"0","from":"x:[175%];y:[-175%];opacity:{0,1};","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 7;"><img src="revslider/assets/0dd17-06.png" alt="" data-ww="auto"
-                            data-hh="auto" data-no-retina> </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-5-layer-10" data-x="right"
-                        data-hoffset="-100" data-y="center" data-voffset="105"
-                        data-width="['none','none','none','none']" data-height="['none','none','none','none']"
-                        data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":3160,"speed":1000,"frame":"0","from":"x:[175%];y:[-175%];opacity:{0,1};","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 8;"><img src="revslider/assets/0dd17-06.png" alt="" data-ww="auto"
-                            data-hh="auto" data-no-retina> </div>
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-5-layer-4" data-x="30" data-y="272"
-                        data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 9; white-space: nowrap; font-size: 58px; line-height: 58px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: 'Ubuntu', sans-serif; text-transform:uppercase;">
-                        Be ready to fly with </div>
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-5-layer-5" data-x="30" data-y="343"
-                        data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 10; white-space: nowrap; font-size: 78px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px; font-family: 'Ubuntu', sans-serif; text-transform:uppercase;">
-                        <span class="iq-font-yellow">Crystal Trade.</span>
-                    </div>
-                    <!-- LAYER NR. 7 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-5-layer-6" data-x="30" data-y="432"
-                        data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 11; white-space: nowrap; font-size: 14px; line-height: 26px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Raleway;">
-                        Millions of crypto currency are currently in the hands of many people worldwide but they don't
-                        know
-                        <br> how to use it or invest it for more earnings, we have a plan to assist all crypto holders.
-                        <br>Our platform was built from the ground up with multiple layers of protection.
-                    </div>
-                    <!-- LAYER NR. 8 -->
-                    <div class="tp-caption rev-btn button" id="slide-5-layer-7" data-x="30" data-y="540"
-                        data-width="['auto']" data-height="['auto']" data-type="button" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":""}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[1,1,1,1]"
-                        data-paddingright="[30,30,30,30]" data-paddingbottom="[1,1,1,1]"
-                        data-paddingleft="[30,30,30,30]" style="">View more</div>
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-7" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="500"
-                    data-thumb="revslider/assets/100x50_bebf9-11.jpg" data-rotate="0" data-saveperformance="off"
-                    data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
-                    data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
-                    data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="revslider/assets/bebf9-11.jpg" alt="" data-bgposition="center center"
-                        data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
-                        data-no-retina>
-                    <!-- LAYERS -->
-                    <!-- LAYER NR. 9 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-6" data-x="center" data-hoffset=""
-                        data-y="center" data-voffset="-98" data-width="['auto']" data-height="['auto']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 5; white-space: nowrap; font-size: 72px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px; font-family: 'Ubuntu', sans-serif; text-transform:uppercase;">
-                        what are future </div>
-                    <!-- LAYER NR. 10 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-11"
-                        data-x="center" data-hoffset="" data-y="center" data-voffset="-47" data-width="['70']"
-                        data-height="['1']" data-type="shape" data-responsive_offset="on"
-                        data-frames='[{"delay":1220,"speed":1000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 6;background-color:rgb(247,201,1);"> </div>
-                    <!-- LAYER NR. 11 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-7-layer-14" data-x="center" data-hoffset="1"
-                        data-y="center" data-voffset="-12" data-width="['auto']" data-height="['auto']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1870,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 7; white-space: nowrap; font-size: 24px; line-height: 48px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: 'Ubuntu', sans-serif; ">
-                        Join, Submit, Invest crypto with Crystal Trade ! </div>
-                    <!-- LAYER NR. 12 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-7-layer-1" data-x="194"
-                        data-y="center" data-voffset="180" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":2660,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 8;"><img src="revslider/assets/1f9f4-07.png" alt="" data-ww="157px"
-                            data-hh="231px" data-no-retina> </div>
-                    <!-- LAYER NR. 13 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-7-layer-3" data-x="382"
-                        data-y="center" data-voffset="182" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":4830,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 9;"><img src="revslider/assets/e1b9a-10.png" alt="" data-ww="265px"
-                            data-hh="263px" data-no-retina> </div>
-                    <!-- LAYER NR. 14 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-7-layer-4" data-x="right"
-                        data-hoffset="383" data-y="center" data-voffset="193"
-                        data-width="['none','none','none','none']" data-height="['none','none','none','none']"
-                        data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":3400,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 10;"><img src="revslider/assets/1f9f4-07.png" alt="" data-ww="105px"
-                            data-hh="229px" data-no-retina> </div>
-                    <!-- LAYER NR. 15 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-7-layer-5" data-x="right"
-                        data-hoffset="166" data-y="center" data-voffset="192"
-                        data-width="['none','none','none','none']" data-height="['none','none','none','none']"
-                        data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":4120,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 11;"><img src="revslider/assets/09e47-08.png" alt="" data-ww="153px"
-                            data-hh="233px" data-no-retina> </div>
-                    <!-- LAYER NR. 16 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-13"
-                        data-x="83" data-y="340" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 12;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 17 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-16"
-                        data-x="1141" data-y="496" data-width="['12']" data-height="['12']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":5670,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 13;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 18 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-20"
-                        data-x="855" data-y="410" data-width="['12']" data-height="['12']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":3440,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 14;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 19 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-23"
-                        data-x="731" data-y="201" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 15;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 20 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-24"
-                        data-x="919" data-y="177" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 16;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 21 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-25"
-                        data-x="497" data-y="351" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 17;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 22 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-26"
-                        data-x="1118" data-y="639" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 18;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 23 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-27"
-                        data-x="406" data-y="130" data-width="['11']" data-height="['11']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":5670,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 19;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 24 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-28"
-                        data-x="1114" data-y="174" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 20;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                    <!-- LAYER NR. 25 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-7-layer-29"
-                        data-x="33" data-y="165" data-width="['10']" data-height="['10']" data-type="shape"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":1850,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 21;background-color:rgb(255,204,0);border-radius:90px 90px 90px 90px;">
-                        <div class="rs-looped rs-pulse" data-easing="Linear.easeNone" data-speed="2"
-                            data-zoomstart="1" data-zoomend="0"> </div>
-                    </div>
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-8" data-transition="random-static,random-premium,random"
-                    data-slotamount="default,default,default,default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-randomtransition="on"
-                    data-easein="default,default,default,default" data-easeout="default,default,default,default"
-                    data-masterspeed="600,default,default,default" data-thumb="" data-rotate="0,0,0,0"
-                    data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                    data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="revslider/assets/transparent.png" data-bgcolor='#000000' style='background:#000000'
-                        alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                        data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                    <!-- LAYER NR. 26 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-8-layer-11" data-x="30" data-y="340"
-                        data-voffset="" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":660,"speed":1000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 5;"><img src="revslider/assets/607ef-12.png" alt="" data-ww="146px"
-                            data-hh="180px" data-no-retina> </div>
-                    <!-- LAYER NR. 27 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-8-layer-12" data-x="-170"
-                        data-y="180" data-voffset="" data-width="['none','none','none','none']"
-                        data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
-                        data-frames='[{"delay":1170,"speed":1000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 6;">
-                        <div class="rs-looped rs-rotate" data-easing="Linear.easeNone" data-startdeg="90"
-                            data-enddeg="-90" data-speed="50" data-origin="50% 50%"><img
-                                src="revslider/assets/57b4d-13.png" alt="" data-ww="525px" data-hh="504px"
-                                data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 28 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-8-layer-4" data-x="right" data-hoffset="28"
-                        data-y="center" data-voffset="-80" data-width="['auto']" data-height="['auto']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 7; white-space: nowrap; font-size: 58px; line-height: 58px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: 'Ubuntu', sans-serif; text-transform:uppercase;">
-                        your best moves now! </div>
-                    <!-- LAYER NR. 29 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-8-layer-5" data-x="right" data-hoffset="28"
-                        data-y="center" data-voffset="-10" data-width="['auto']" data-height="['auto']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 8; white-space: nowrap; font-size: 65px; line-height: 70px; font-weight: 700; color: #ffffff; letter-spacing: 0px; font-family: 'Ubuntu', sans-serif; text-transform:uppercase;">
-                        <span class="iq-font-yellow">Easy and secure.</span>
-                    </div>
-                    <!-- LAYER NR. 30 -->
-                    <div class="tp-caption   tp-resizeme" id="slide-8-layer-6" data-x="right" data-hoffset="30"
-                        data-y="center" data-voffset="60" data-width="['auto']" data-height="['auto']"
-                        data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"}]'
-                        data-textAlign="['right','right','right','right']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                        style="z-index: 9; white-space: nowrap; font-size: 14px; line-height: 26px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Raleway;">
-                        When choosing an exchange, trust matters. That’s why security has been and will
-                        <br> always be our top consideration. We believe in the potential of crypto currency
-                    </div>
-                    <!-- LAYER NR. 31 -->
-                    <div class="tp-caption rev-btn button" id="slide-8-layer-7" data-x="right" data-hoffset="30"
-                        data-y="center" data-voffset="135" data-width="['auto']" data-height="['auto']"
-                        data-type="button" data-responsive_offset="on"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power4.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":""}]'
-                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[1,1,1,1]"
-                        data-paddingright="[35,35,35,35]" data-paddingbottom="[1,1,1,1]"
-                        data-paddingleft="[35,35,35,35]" style="">View more</div>
-                </li>
-            </ul>
-            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-        </div>
-    </div>
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-</div>
-<!-- Banner End -->
-
-
-<!-- Topbar Chart -->
-<div class="topbar-chart iq-chart">
-    <div class="container-fluid">
-        <div class="row">
-            <script>
-                baseUrl = "https://widgets.cryptocompare.com/";
-                var scripts = document.getElementsByTagName("script");
-                var embedder = scripts[scripts.length - 1];
-                var cccTheme = {
-                    "General": {
-                        "enableMarquee": true
-                    }
-                };
-                (function() {
-                    var appName = encodeURIComponent(window.location.hostname);
-                    if (appName == "") {
-                        appName = "local";
-                    }
-                    var s = document.createElement("script");
-                    s.type = "text/javascript";
-                    s.async = true;
-                    var theUrl = baseUrl + 'serve/v3/coin/header?fsyms=BTC,ETH,XMR,LTC,DASH&tsyms=BTC,USD,CNY,EUR';
-                    s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-                    embedder.parentNode.appendChild(s);
-                })();
-            </script>
-        </div>
-    </div>
-</div>
-
-<!-- Topbar Chart End -->
-
-<!-- Main Content -->
-<div class="main-content">
-    <!-- Easy Steps -->
-    <section class="overview-block-ptb easy-step">
+<main>
+    <section class="section-image section-home-one no-padding-y" style="background-image:url(media/hd-1.jpg)">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="heading-title">
-                        <h3 class="title iq-tw-5 iq-mb-25">3 Easy Steps to Get Started</h3>
-                        <p>If you are a crypto currency holder, you can start exploring our versatile trading products.
-                            In our exchange market, you can invest hundreds of crypto currency, without paying any fees
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-12 iq-mt-20">
-                    <div class="iq-features1">
-                        <div class="iq-bg" style="background-image: url('images/feature/01.jpg');"></div>
-                        <div class="iq-blog">
-                            <div class="step">1</div>
-                            <div class="icon"><i aria-hidden="true" class="ion-ios-compose-outline"></i></div>
-                            <h4 class="iq-tw-5 iq-mt-20"><a href="javascript:void(0)">Fill Up Your Form</a></h4>
-                            <p>Register a Crystal Trade account from our website with your name, email, phone number and
-                                a unique password.</p>
-                            <a href="javascript:void(0)">Read More <i aria-hidden="true"
-                                    class="ion-ios-arrow-forward"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 iq-mt-20">
-                    <div class="iq-features1">
-                        <div class="iq-bg" style="background-image: url('images/feature/01.jpg');"></div>
-                        <div class="iq-blog">
-                            <div class="step">2</div>
-                            <div class="icon"><i aria-hidden="true" class="ion-ios-paper-outline"></i></div>
-                            <h4 class="iq-tw-5 iq-mt-20"><a href="javascript:void(0)">Make Payment</a></h4>
-                            <p>If you already hold crypto in another wallet, you can deposit them into your Crystal
-                                Trade Wallet and invest.</p>
-                            <a href="javascript:void(0)">Read More <i aria-hidden="true"
-                                    class="ion-ios-arrow-forward"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 iq-mt-20">
-                    <div class="iq-features1">
-                        <div class="iq-bg" style="background-image: url('images/feature/01.jpg');"></div>
-                        <div class="iq-blog">
-                            <div class="step">3</div>
-                            <div class="icon"><i aria-hidden="true" class="ion-ios-cart-outline"></i></div>
-                            <h4 class="iq-tw-5 iq-mt-20"><a href="javascript:void(0)">Withdraw/Reinvest</a></h4>
-                            <p>Withdraw your investment returns, or you can choose to use your returns to invest again.
-                            </p>
-                            <a href="javascript:void(0)">Read More <i aria-hidden="true"
-                                    class="ion-ios-arrow-forward"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Easy Steps -->
-    <!-- About Us -->
-    <section class="overview-block-ptb iq-bg iq-over-black-80 jarallax iq-about-us"
-        style="background-image: url('images/bg/bg-13.jpg'); background-position: left center;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-8 col-md-12">
-                    <h2 class="iq-font-white iq-tw-6">Everything <br>
-                        <span class="iq-font-yellow">You Need To Know!</span>
-                    </h2>
-                    <p class="iq-font-white iq-mt-20">Crystal Trade is based in UK and Bermuda, placing us in world
-                        class financial systems governed by revolutionary legislation. We operate under the framework of
-                        the Digital Asset Busines Act (DABA) in Bermuda, and within the Transactions Systems Based on
-                        Trustworthy Technologies Act (the “Blockchain Act”) in Boston. Crystal Trade (Bermuda) is fully
-                        licensed to conduct Digital Asset Business by the Bermuda Monetary Authority (BMA) </p>
-                    <ul class="listing-hand iq-tw-5 iq-font-white">
-                        <li class="iq-mt-20">Our company is licensed to operate a Digital Asset Business.</li>
-                        <li class="iq-mt-20">Our Company must, for the first three years follow the rules of its
-                            license.</li>
-                        <li class="iq-mt-20">OurCompany maintains minimum net assets of USD 3,070,000 amount, or
-                            equivalent.</li>
-                        <li class="iq-mt-20">We are supervised by the Office of Economic Affairs of UK and the UK
-                            Financial Market Authority.</li>
-
+                <div class="col-lg-7">
+                    <hr class="space-lg" />
+                    <h3 class="text-uppercase">
+                        ACCELERATE THE USER THE BEST EXPERIENCE
+                    </h3>
+                    <ul class="slider" data-options="arrows:false,nav:false,autoplay:3000,controls:out">
+                        <li>
+                            <h1 class="text-uppercase">"Tesla X automated investments in crypto. Our team are ready for
+                                the best"</h1>
+                        </li>
+                        <li>
+                            <h1 class="text-uppercase">“With Tesla X Platform, the possibilities for crypto trading, are
+                                limitless.”</h1>
+                        </li>
+                        <li>
+                            <h1 class="text-uppercase">"Elon Musk’s remarkable achievements speak volumes about his
+                                dedication to innovation.”</h1>
+                        </li>
                     </ul>
-
+                    <p>
+                        By leveraging Tesla X programs real-time market updates, trend analysis, and pattern
+                        recognition, you can stay ahead of the curve and make informed trading decisions.
+                    </p>
+                    <hr class="space-sm" />
+                    <a href="indexcca3.html?a=signup" class="btn btn-sm width-190 full-width-sm">Register</a>
+                    <a href="indexc30b.html?a=login"
+                        class="btn btn-border btn-sm width-190 active full-width-sm">Login</a>
+                    <hr class="space-lg" />
                 </div>
-                <div class="col-lg-4 col-md-12 iq-about1">
-
-                    <div
-                        style="height:433px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38; padding: 0px; margin: 0px; width: 100%;">
-                        <div style="height:413px; padding:0px; margin:0px; width: 100%;"><iframe
-                                src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=6&pref_coin_id=1505&graph=yes"
-                                width="100%" height="409px" scrolling="auto" marginwidth="0" marginheight="0"
-                                frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div>
-                        <div
-                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
-                            <a href="https://coinlib.io" target="_blank"
-                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
-                                Prices</a>&nbsp;by Coinlib
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-    <!-- About Us -->
-
-
-    <section class="overview-block-ptb iq-feature4 iq-additional">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="heading-title">
-                        <h3 class="title iq-tw-5 iq-mb-20">Our Plan</h3>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                @foreach ($plans as $plan)
-                    <div class="col-sm-6 col-lg-3 iq-r-mt-40">
-
-                        <div class="pricing-small dark-bg">
-                            <h6 class="iq-font-yellow">Minimum: {{ $settings->currency }}{{ $plan->min_price }} </h6>
-                            <h3 class="iq-tw-6  iq-mtb-10">{{ $plan->expiration }}</h3>
-
-
-                            <span class="iq-mt-15 text-uppercase">*you get
-                                <?php
-                                
-                                $a = 100;
-                                $b = $plan->increment_amount;
-                                $c = $b - $a;
-                                echo $c . '%';
-                                ?>*</span>
-
-
-
-                            @if ($settings->site_preference == 'Web dashboard only')
-                                @guest
-                                    <a class="button iq-mt-25" href="javascript:void(0)" data-toggle="modal"
-                                        data-target=".iq-register" data-whatever="@fat">
-                                        Buy {{ $plan->name }} Plan</a>
-                                @else
-                                    <a class="button iq-mt-25" href="https://crystaltrade.org/dashboard/mplans">
-                                        Deposit Now</a>
-
-                                @endguest
-                            @endif
-                        </div>
-
-                    </div>
-                @endforeach
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Features -->
-    <section class="overview-block-ptb iq-feature-aria">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="heading-title">
-                        <h3 class="title iq-tw-5 iq-mb-25">Crystal Trade Features</h3>
-
-                    </div>
-                </div>
-            </div>
-            <div class="row pos-r h-100">
-                <div class="col-lg-4 col-md-12 text-right">
-                    <div class="iq-feature2 iq-mtb-20 first-l">
-                        <h4 class="iq-font-yellow iq-tw-5"><a href="#"> Intuitive Interface
-                            </a><span class="iq-icon iq-ml-10"><img class="img-fluid"
-                                    src="images/services/icon/01.png" alt=""></span>
-                        </h4>
-                        <p>Not many investors are familiar with trading. with us it is easy.<a
-                                href="javascript:void(0)" class="iq-font-green">[ ... ]</a></p>
-                    </div>
-                    <div class="iq-feature2 iq-mtb-20 second-l">
-                        <h4 class="iq-font-yellow iq-tw-5"><a href="#">Secure and Stable
-                            </a> <span class="iq-icon iq-ml-10"><img class="img-fluid"
-                                    src="images/services/icon/02.png" alt=""></span>
-                        </h4>
-                        <p>it’s not surprising that security around cryptocurrencies must be a forefront consideration.
-                            <a href="javascript:void(0)" class="iq-font-green">[ ... ]</a>
-                        </p>
-                    </div>
-                    <div class="iq-feature2 iq-mtb-20 first-l">
-                        <h4 class="iq-font-yellow iq-tw-5"><a href="#">Usability</a> <span
-                                class="iq-icon iq-ml-10"><img class="img-fluid" src="images/services/icon/03.png"
-                                    alt=""></span>
-                        </h4>
-                        <p>Our system is easy to use to ensure speeding up completing transactions. <a
-                                href="javascript:void(0)" class="iq-font-green">[ ... ]</a></p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 align-self-center text-center">
-                    <img class="img-fluid" src="images/feature/features-img1.png" alt="">
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="iq-feature2 iq-mtb-20 first-r">
-                        <h4 class="iq-font-yellow iq-tw-5"><span class="iq-icon iq-mr-10"><img class="img-fluid"
-                                    src="images/services/icon/04.png" alt=""></span><a
-                                href="#">Trustworthy</a>
-                        </h4>
-                        <p>We safely do trades without the value of your crypto currency being diminished. <a
-                                href="javascript:void(0)" class="iq-font-green">[ ... ]</a></p>
-                    </div>
-                    <div class="iq-feature2 iq-mtb-20 second-r">
-                        <h4 class="iq-font-yellow iq-tw-5"><span class="iq-icon iq-mr-10"><img class="img-fluid"
-                                    src="images/services/icon/05.png" alt=""></span><a href="#">Legally
-                                Recognized</a>
-                        </h4>
-                        <p>Crystal Trade is accepted by the government of every country as a legal entity. <a
-                                href="javascript:void(0)" class="iq-font-green">[ ... ]</a></p>
-                    </div>
-                    <div class="iq-feature2 iq-mtb-20 first-r">
-                        <h4 class="iq-font-yellow iq-tw-5"><span class="iq-icon iq-mr-10"><img class="img-fluid"
-                                    src="images/services/icon/06.png" alt=""></span><a
-                                href="#">Transparent</a>
-                        </h4>
-                        <p>Our system keeps its services and transaction transparent to the public <a
-                                href="javascript:void(0)" class="iq-font-green">[ ... ]</a></p>
-                    </div>
-                </div>
-                <div class="particles text-center"><img class="img-fluid" src="images/particles.png" alt="">
+                <div class="col-lg-5 hidden-md">
+                    <hr class="space-sm" />
+                    <img data-anima="fade-bottom" data-time="1000" class="slide-image"
+                        src="images/headgif3aee.gif?v=1.201990" alt="" />
                 </div>
             </div>
         </div>
     </section>
-    <!-- Features -->
-    <!-- Bitcoin Charts -->
 
-    <!-- TradingView Widget BEGIN -->
-    <div class="container tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <div class="tradingview-widget-copyright"><a
-                href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener"
-                target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by Crystal Trade</div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-            {
-                "width": "100%",
-                "height": "600",
-                "defaultColumn": "overview",
-                "screener_type": "crypto_mkt",
-                "displayCurrency": "USD",
-                "colorTheme": "dark",
-                "locale": "en",
-                "isTransparent": true
-            }
-        </script>
-    </div>
-    <!-- TradingView Widget END -->
-    <!-- Why us -->
-    <!-- Contact Us -->
-    <section class="overview-block-ptb8 iq-bg iq-over-black-80 jarallax"
-        style="background-image: url('images/bg/bg-7.jpg'); background-position: center center;">
+
+    <section class="section-base">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-8 text-center iq-need-help">
-                    <img src="images/need-help.png" alt="">
-                    <h3 class="iq-font-yellow iq-tw-5 iq-mt-20">Any Query? Contact Us</h3>
-                    <ul class="list-inline iq-mt-40">
-                        <li class="list-inline-item iq-font-yellow">+447915604262</li>
-                        <li class="list-inline-item iq-font-white">support@crystaltrade.org</li>
-                    </ul>
 
+            <center>
+
+                <!--
+
+                <iframe src="https://streamable.com/e/5gu78r" width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+
+               --->
+                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe
+                        src="https://streamable.com/e/smcns6" frameborder="0" width="100%" height="100%"
+                        allowfullscreen
+                        style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Us -->
-    <!-- Team -->
 
-    <!-- Team -->
-    <!-- Counter -->
-    <section class="overview-block-ptb iq-bg iq-over-black-80 jarallax iq-we-happy"
-        style="background-image: url('images/bg/bg-5.jpg'); background-position: center center;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <h2 class="iq-font-white iq-tw-5">Crystal Trade is the <span class="iq-font-yellow">best
-                            choice</span> for you if:</h2>
-                    <ul class="listing-hand iq-mt-30 iq-tw-5 iq-font-white">
-                        <li class="iq-mt-20">Want to trade crypto to other cryptocurrencies</li>
-                        <li class="iq-mt-20">You are looking for legit and legalised crypto investment.</li>
-                        <li class="iq-mt-20"></li>
-                        <li class="iq-mt-20">You want elegant, and secure platform to build your crypto.</li>
-                        <li class="iq-mt-20">You are a beginner and active crypto currency traders</li>
+                <br> <br>
+
+            </center>
+
+            <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
+
+
+
+                <div class="col-lg-6">
+                    <ul class="slider" data-options="arrows:true,nav:false">
+                        <!--
+                        <li>
+                            <a class="img-box img-box-caption btn-video lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
+                                <img src="media/image-3.jpg?v=1.201990" alt="">
+                                <span>Rilwanu Az</span>
+                            </a>
+                        </li>
+                        -->
+                        <li>
+                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout1.jpg"
+                                data-lightbox-anima="fade-top">
+                                <img src="images/phoenixabout13aee.jpg?v=1.201990" alt="">
+                                <span>Tesla X</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 col-md-12 counter-blog">
-                    <div class="heading-left iq-font-white">
-                        <h3 class="title iq-tw-5 iq-mb-25 iq-font-white">We're Fulfilled</h3>
-                        <p>Premium 24/7 support available to all customers worldwide by livechat or WhatsApp. Dedicated
-                            account managers for users.
-
-                        </p>
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h2>Our values and goals</h2>
+                        <p>About us</p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-3 col-6 iq-mt-50">
-                            <div class="counter"><i class="ion-ios-folder-outline iq-font-yellow"
-                                    aria-hidden="true"></i>
-                                <div class="right text-left">
-                                    <span class="timer1 iq-font-white" data-speed="10000"><?php
-                                    
-                                    $x = 3109;
-                                    $y = $num_rows;
-                                    $z = $x + $y;
-                                    echo $z; ?></span>
-                                    <label class="iq-font-white">USERS</label>
+                    <p>
+                        Tesla X is not just an investment/trading platform; it is a revolutionary force in the world of
+                        finance, powered by the visionary approach and AI expertise of Elon Musk. With its cutting-edge
+                        features and unparalleled capabilities, Tesla X program empowers traders to unlock their full
+                        potential and achieve financial success.
+                        <br>
+                        By leveraging TeslaX’s advanced algorithms and automation, you can experience rapid profit
+                        generation, even without prior trading experience. The platform’s ability to calculate thousands
+                        of possible events per second and predict the most profitable deals with 98.7% accuracy ensures
+                        that you can reduce risks to zero and make informed trading decisions.
+
+
+                    </p>
+                    <a href="indexe47e.html?a=about" class="btn btn-sm width-190 full-width-sm">Read More</a>
+                    <!--
+                    <div class="box-sign">
+                        <img alt="sign" src="media/sign-dark.png">
+                        <span style='font-size:30px;'>&#9989;</span>
+                        <b>Lucas Andersson</b>
+                        <span>Founder &amp; CEO</span>
+                    </div>
+                    --->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+
+    <img src="images/tesla-wraps.gif" alt="" width="100%">
+
+    <br>
+
+
+
+    <section class="section-base">
+        <div class="container">
+            <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
+                <div class="col-lg-6">
+                    <ul class="slider" data-options="arrows:true,nav:false">
+                        <!--
+                        <li>
+                            <a class="img-box img-box-caption btn-video lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
+                                <img src="media/image-3.jpg?v=1.201990" alt="">
+                                <span>Rilwanu Az</span>
+                            </a>
+                        </li>
+                        -->
+                        <li>
+                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout2.jpg"
+                                data-lightbox-anima="fade-top">
+                                <img src="images/phoenixabout23aee.jpg?v=1.201990" alt="">
+                                <span>Tesla X</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h2>Tesla X Trading</h2>
+
+                    </div>
+                    <p>
+                        Elon Musk, a name synonymous with innovation and groundbreaking achievements, has continually
+                        pushed the boundaries of what is possible. From co-founding PayPal to revolutionizing the
+                        automotive industry with Tesla and pursuing space exploration with SpaceX, Musk has consistently
+                        demonstrated his pursuit of transformative ideas.
+                        <br>
+                        Now, he sets his sights on the world of trading with Tesla X, a revolutionary platform that
+                        harnesses the power of artificial intelligence (AI) to redefine the trading landscape.
+                    </p>
+
+                    <!--
+                    <div class="box-sign">
+                        <img alt="sign" src="media/sign-dark.png">
+                        <span style='font-size:30px;'>&#9989;</span>
+                        <b>Lucas Andersson</b>
+                        <span>Founder &amp; CEO</span>
+                    </div>
+                    --->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="section-base">
+        <div class="container">
+            <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
+                <div class="col-lg-6">
+                    <ul class="slider" data-options="arrows:true,nav:false">
+                        <!--
+                        <li>
+                            <a class="img-box img-box-caption btn-video lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
+                                <img src="media/image-3.jpg?v=1.201990" alt="">
+                                <span>Rilwanu Az</span>
+                            </a>
+                        </li>
+                        -->
+                        <li>
+                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout3.jpg"
+                                data-lightbox-anima="fade-top">
+                                <img src="images/phoenixabout33aee.jpg?v=1.201990" alt="">
+                                <span>Tesla X</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h2>Tesla Electric Cars</h2>
+
+                    </div>
+                    <p>
+                        We’re building a world powered by solar energy, running on batteries and transported by electric
+                        vehicles. Explore the most recent impact of our products, people and supply chain.
+
+                        <br>
+
+                        Our vehicles are some of the safest in the world. After safety, our goal is to make every Tesla
+                        the most fun you could possibly have in a vehicle. We build features that make being in your
+                        vehicle more enjoyable—from gaming to movies, easter eggs and more. With over-the-air software
+                        updates, we regularly introduce features at the push of a button.
+                    </p>
+
+                    <!--
+                    <div class="box-sign">
+                        <img alt="sign" src="media/sign-dark.png">
+                        <span style='font-size:30px;'>&#9989;</span>
+                        <b>Lucas Andersson</b>
+                        <span>Founder &amp; CEO</span>
+                    </div>
+                    --->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="section-base">
+        <div class="container">
+            <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
+                <div class="col-lg-6">
+                    <ul class="slider" data-options="arrows:true,nav:false">
+                        <!--
+                        <li>
+                            <a class="img-box img-box-caption btn-video lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
+                                <img src="media/image-3.jpg?v=1.201990" alt="">
+                                <span>Rilwanu Az</span>
+                            </a>
+                        </li>
+                        -->
+                        <li>
+                            <a class="img-box img-box-caption lightbox" href="images/phoenixabout5.jpg"
+                                data-lightbox-anima="fade-top">
+                                <img src="images/phoenixabout53aee.jpg?v=1.201990" alt="">
+                                <span>Tesla X</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h2>Tesla Giveaway</h2>
+
+                    </div>
+                    <p>
+
+                        Stand a chance to win a Brand Neew Tesla Car by investing regularly with teamx-vest.com
+
+                        <br>
+                        Now is the time to embrace the future of trading. Collaborate with Elon Musk’s creation, Tesla X
+                        platform, and embark on a profitable trading journey like never before. Join the growing
+                        community of traders who are already experiencing exceptional results. Don’t miss out on this
+                        opportunity to revolutionize your financial success.
+                        <br>
+
+                    </p>
+
+                    <a href="index52b6.html?a=redeem" class="btn btn-sm width-190 full-width-sm">Redeem Now</a>
+
+                    <!--
+                    <div class="box-sign">
+                        <img alt="sign" src="media/sign-dark.png">
+                        <span style='font-size:30px;'>&#9989;</span>
+                        <b>Lucas Andersson</b>
+                        <span>Founder &amp; CEO</span>
+                    </div>
+                    --->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--
+    <section class="section-base">
+        <div class="container">
+            <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
+                <div class="col-lg-6">
+                    <ul class="slider" data-options="arrows:true,nav:false">
+                        <!--
+                        <li>
+                            <a class="img-box img-box-caption btn-video lightbox" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ" data-lightbox-anima="fade-top">
+                                <img src="media/image-3.jpg?v=1.201990" alt="">
+                                <span>Rilwanu Az</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="img-box img-box-caption lightbox" href="media/image-16.jpg" data-lightbox-anima="fade-top">
+                                <img src="/cert.png" alt="" width="100%">
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h2>Our Certificate</h2>
+                    </div>
+                    <p>
+                        teamx-vest.com is a private, legally registered online investment company with the goal of earning the greatest profit possible from Foreign exchange trading. If this sounds like your ideal situation, and if you are considering entering the online investment marketing, we strongly recommend giving us here at teamx-vest.com a try; we are positive that you will be able to become a huge success in partnership with our company.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+     -->
+
+    <section class="section-base section-color">
+        <div class="container">
+            <div class="row" data-anima="fade-bottom" data-time="1000">
+                <div class="col-lg-6">
+                    <div class="title">
+                        <h2>Core Technology services</h2>
+                        <p>Our services</p>
+                    </div>
+                </div>
+                <!--
+                    <div class="col-lg-6 align-right align-left-md">
+                        <hr class="space-sm hidden-md" />
+                        <a href="#" class="btn-text active">All services</a>
+                    </div>
+                -->
+            </div>
+            <hr class="space" />
+            <div class="grid-list" data-columns="3" data-columns-md="2" data-columns-sm="1"
+                data-anima="fade-bottom" data-time="1000">
+                <div class="grid-box">
+                    <!--
+                        <div class="grid-item">
+                            <div class="cnt-box cnt-box-info boxed" data-href="#">
+                                <a href="#" class="img-box"><img src="media/image-17.jpg?v=1.201990" alt="" /></a>
+                                <div class="caption">
+                                    <h2>Security audit</h2>
+                                    <div class="cnt-info">
+                                        <div><span>Price</span><span>$50</span></div>
+                                        <div><span>Type</span><span>Software</span></div>
+                                        <div><span>Client</span><span>Private</span></div>
+                                    </div>
+                                    <p>
+                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-3 col-6 iq-mt-50">
-                            <div class="counter"> <i class="ion-ios-paper-outline iq-font-yellow"
-                                    aria-hidden="true"></i>
-                                <div class="right text-left">
-                                    <span class="timer1 iq-font-white" data-speed="10000"><?php
-                                    
-                                    $a = 80290210;
-                                    $b = $num_depo;
-                                    $c = $a + $b;
-                                    echo '$' . $c;
-                                    ?></span>
-                                    <label class="iq-font-white">DEPOSITS</label>
+                    -->
+                    <div class="grid-item">
+                        <div class="cnt-box cnt-box-info boxed" data-href="#">
+                            <a href="#" class="img-box"><img src="images/phoenixf13aee.jpg?v=1.201990"
+                                    alt="" /></a>
+                            <div class="caption">
+                                <h2>Investment Management</h2>
+                                <p>
+                                    We serve high-net-worth individuals, and foundations, providing investment
+                                    management services and offer investment products to achieve investment goals and
+                                    financial well-being.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                        <div class="grid-item">
+                            <div class="cnt-box cnt-box-info boxed" data-href="#">
+                                <a href="#" class="img-box"><img src="media/image-9.jpg?v=1.201990" alt="" /></a>
+                                <div class="caption">
+                                    <h2>Vulnerability report</h2>
+                                    <div class="cnt-info">
+                                        <div><span>Price</span><span>$50</span></div>
+                                        <div><span>Type</span><span>App</span></div>
+                                        <div><span>Client</span><span>Business</span></div>
+                                    </div>
+                                    <p>
+                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-3 col-6 iq-mt-50">
-                            <div class="counter"> <i class="ion-ios-person-outline iq-font-yellow"
-                                    aria-hidden="true"></i>
-                                <div class="right text-left">
-                                    <span class="timer1 iq-font-white" data-speed="10000"><?php
-                                    $d = 160983200;
-                                    $e = $num_withd;
-                                    $f = $e + $d;
-                                    echo '$' . $f;
-                                    ?></span>
-                                    <label class="iq-font-white">WITHDRAWALS</label>
-                                </div>
+                    -->
+                    <div class="grid-item">
+                        <div class="cnt-box cnt-box-info boxed" data-href="#">
+                            <a href="#" class="img-box"><img src="images/phoenixf23aee.jpg?v=1.201990"
+                                    alt="" /></a>
+                            <div class="caption">
+                                <h2>Investing and Lending</h2>
+                                <p>
+                                    We provide a variety of services to bring investors together with projects and
+                                    organizations in need of capital.
+                                </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-3 col-6 iq-mt-50">
-                            <div class="counter"> <i class="ion-ios-star-outline iq-font-yellow"
-                                    aria-hidden="true"></i>
-                                <div class="right text-left">
-                                    <span class="timer1 iq-font-white" data-speed="10000">127</span>
-                                    <label class="iq-font-white">COUNTRIES</label>
-                                </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="cnt-box cnt-box-info boxed" data-href="#">
+                            <a href="#" class="img-box"><img src="images/phoenixf33aee.jpg?v=1.201990"
+                                    alt="" /></a>
+                            <div class="caption">
+                                <h2>Transaction and Investment Banking</h2>
+                                <p>
+                                    At teamx-vest.com, we have been continuously transforming the traditional money
+                                    management industry, in order to open the financial markets to everyone, everywhere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="cnt-box cnt-box-info boxed" data-href="#">
+                            <a href="#" class="img-box"><img src="images/phoenixf43aee.jpg?v=1.201990"
+                                    alt="" /></a>
+                            <div class="caption">
+                                <h2>At teamx-vest.com firm</h2>
+                                <p>
+                                    We precisely provide value in those areas that matter. We assist portfolio companies
+                                    in developing and executing strategic growth, building the board and executive
+                                    management team, exploring capitalization structures, pursuing growth mergers and
+                                    acquisitions, and enhancing market presence.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -763,27 +453,259 @@
             </div>
         </div>
     </section>
-    <!-- Counter -->
-    <!-- Testimonial -->
+    <!--
+        <section class="section-base">
+            <div class="container">
+                <div class="row" data-anima="fade-bottom" data-time="1000">
+                    <div class="col-lg-6">
+                        <div class="title">
+                            <h2>Request a free<br />consultation with us</h2>
+                            <p>Contact us now</p>
+                        </div>
+                        <a href="#" class="btn-text active">You accept our policy</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <form id="UCiFI" action="contact-form.php" class="form-box form-ajax form-ajax-wp" method="post" data-email=""><input type="hidden" name="form_id" value="17255765865275"><input type="hidden" name="form_token" value="cb13b0536c6169ef3964cc2fe770c604"><input type="hidden" name="form_id" value="16570688786919"><input type="hidden" name="form_token" value="73d4fd89d05644a90b95fb6292b7ed22">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input id="Name" name="Name" placeholder="Name" type="text" class="input-text" required="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input id="Email" name="Email" placeholder="Email" type="email" class="input-text" required="">
+                                </div>
+                            </div>
+                            <hr class="space-xs" />
+                            <textarea id="Message" name="Message" placeholder="Message" class="input-textarea" required=""></textarea>
+                            <button class="btn btn-xs" type="submit">Send message</button>
+                            <div class="success-box">
+                                <div class="alert alert-success">
+                                    Congratulations. Your message has been sent successfully.
+                                </div>
+                            </div>
+                            <div class="error-box">
+                                <div class="alert alert-warning">
+                                    Error, please retry. Your message has not been sent.
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
 
-    <!-- Testimonial -->
-    <!-- Latest News -->
+    <!--
+    <section class="section-image light align-center ken-burn-center" data-parallax="scroll" data-image-src="media/nft.jpg?v=1.201990">
+        <div class="container" data-anima="fade-bottom" data-time="1000">
+            <hr class="space" />
+            <h2 class="width-650">
 
-    <!-- Latest News -->
-    <!-- Clients -->
+<b>NFT investing</b>
+<br>
+A non-fungible token (NFT) is a digital asset that represents a real-world asset. You might have heard of a “non-fungible” asset. A non-fungible asset is an asset that is unique or one-of-a-kind.
+Because it's one-of-a-kind, it can't be exchanged for an asset of equal value, and it has no recognized market price.
 
-    <!-- Clients -->
-</div>
+<br><br>
+An NFT has value because the buyer and their community believe it has value—which is true for all art and collectibles. And as time goes by, an NFT gains more of its own character, based on factors like who's owned it and how they've used it.
+            </h2>
+            <hr class="space" />
+        </div>
+    </section>
+
+    -->
+
+    <!--
+        <section class="section-base section-color">
+            <div class="container">
+                <div class="row" data-anima="fade-bottom" data-time="1000">
+                    <div class="col-lg-12">
+                        <div class="title">
+                            <h2>What our clients think</h2>
+                            <p>Testimonials feedback</p>
+                        </div>
+                        <hr class="space-xs" />
+                        <ul class="slider controls-top-right" data-options="type:carousel,arrows:false,nav:true,perView:3,perViewMd:2,perViewXs:1,gap:30,controls:out">
+                            <li>
+                                <div class="cnt-box cnt-box-testimonials-bubble">
+                                    <p>
+                                        If you don’t succeed at first, there’s no need for the word failure. Pick yourself up and try try again.
+                                    </p>
+                                    <div class="thumb-bar">
+                                        <img src="media/user-1.jpg?v=1.201990" alt="" />
+                                        <p>
+                                            <span>Richard Branson</span>
+                                            <span>Virgin</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cnt-box cnt-box-testimonials-bubble">
+                                    <p>
+                                        Have the courage to follow your heart and intuition. They somehow already know what you truly want.
+                                    </p>
+                                    <div class="thumb-bar">
+                                        <img src="media/user-5.jpg?v=1.201990" alt="" />
+                                        <p>
+                                            <span>Steve Jobs</span>
+                                            <span>Apple</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cnt-box cnt-box-testimonials-bubble">
+                                    <p>
+                                        Do not compare yourself with anyone in this world… if you do so, you are really insulting yourself.
+                                    </p>
+                                    <div class="thumb-bar">
+                                        <img src="media/user-3.jpg?v=1.201990" alt="" />
+                                        <p>
+                                            <span>Bill Gates</span>
+                                            <span>Microsoft</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cnt-box cnt-box-testimonials-bubble">
+                                    <p>
+                                        The question I ask myself like almost every day is if am I doing the most important thing I could be doing.
+                                    </p>
+                                    <div class="thumb-bar">
+                                        <img src="media/user-4.jpg?v=1.201990" alt="" />
+                                        <p>
+                                            <span>Mark Zuckerberg</span>
+                                            <span>Microsoft</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+    <section class="section-base">
+        <div class="container">
+            <div class="row align-items-center" data-anima="fade-bottom" data-time="1000">
+                <div class="col-lg-6">
+
+                    <!--
+                        <p>
+                            Lorem ipsum dolor sit amet consecteture Duis aute irure dolor innocente reprehenderit
+                            in voluptate velit esse cillum dolore eu fugiat nulla.
+                        </p>
+                    -->
+
+
+
+
+
+                    <hr class="space-sm" />
+
+
+                    <div class="title">
+                        <h2>FULLY REGULATED & INVESTED FUNDS ARE PROTECTED BY INSURANCE
+                        </h2>
+
+                    </div>
+
+                    <hr class="space-sm" />
+
+                    <p>
+                        Our company is fully regulated and we are covered by our insurance policy so you don't have to
+                        worry about losing any of your capital.
+                    </p>
+
+                    <p>
+                        When it comes to trading platforms, user experience is paramount. Tesla X takes pride in
+                        offering a seamless and intuitive interface that caters to both seasoned traders and beginners
+                        alike. Let’s explore the key elements that make Tesla X’s user experience exceptional:
+                    </p>
+
+
+
+
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/nepgif3aee.gif?v=1.201990" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-base section-color">
+        <div class="container">
+            <div class="row align-items-center" data-anima="fade-bottom" data-time="1000">
+                <!--
+                <div class="col-lg-6">
+                    <img src="media/box-4.png?v=1.201990" alt="" />
+                </div>
+                -->
+                <div class="col-lg-12">
+                    <div class="title">
+
+                        <!--   <iframe width="80%" height="498" src="https://www.youtube.com/embed/4HOgEL6Ie-c" title="TESLA STOCK: Chamath Just Dropped a MASSIVE Bombshell About Tesla&#39;s Future | Tesla Stock Prediction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+                        <br><br>
+
+                        <h2>Invest Today For A Greater Success Tomorrow</h2>
+
+                    </div>
+                    <p>
+
+                        With a user-friendly interface, customizable dashboards, and real-time market updates, platform
+                        offers a seamless trading experience catered to both seasoned traders and beginners. Its
+                        in-depth analytics, performance tracking, and personalized recommendations further enhance your
+                        trading strategies, giving you a competitive edge.
+
+
+                        Take action now! Explore Tesla X and unlock your trading potential. Sign up today and let
+                        platform guide you towards financial prosperity. Your future starts now.
+                    </p>
+                    <hr class="space-sm" />
+
+
+                    <!---  <div class="grid-list boxed-area" data-columns="4" data-lightbox-anima="fade-top">
+                        <h3>Click here to buy bitcoin</h3>
+                        <div class="grid-box">
+                            <div class="grid-item">
+                                <a class="img-box" href="https://www.coinbase.com/" target="_blank">
+                                    <img src="media/exch1.jpg?v=1.201990" alt="">
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="img-box" href="https://www.coinmama.com/?locale=en" target="_blank">
+                                    <img src="media/exch2.jpg?v=1.201990" alt="">
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="img-box" href="https://www.etoro.com/" target="_blank">
+                                    <img src="media/exch3.jpg?v=1.201990" alt="">
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a class="img-box" href="https://www.luno.com/en/" target="_blank">
+                                    <img src="media/exch4.jpg?v=1.201990" alt="">
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <hr class="space-sm" />
+                    <a href="?a=services" class="btn-text active">View Packages</a>
+                </div>
+            </div>
+            --->
+
+                    <hr class="space" />
+                    <hr class="space-xs" />
+                </div>
+    </section>
+</main>
 
 
 @include('home.footer')
-
-
-</div>
-<!-- Wrapper Ends -->
-</body>
-
-
-<!-- Mirrored from slimhamdi.net/bayya/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Feb 2021 22:04:45 GMT -->
-
-</html>
